@@ -1,0 +1,308 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2024-09-26T03:56:59Z",
+        "creators": [
+            "Organization: COMPANY NAME",
+            "Tool: Black Duck Hub-2024.4.1"
+        ],
+        "licenseListVersion": "3.20"
+    },
+    "name": "apollo-master-Default Detect Version",
+    "dataLicense": "CC0-1.0",
+    "documentNamespace": "https://blackducksoftware.github.io/spdx/apollo-master-0b465413-b035-4248-99dc-bb78cfc86b98",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+                    "referenceType": "BlackDuck-Version"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "apollo-master",
+            "originator": "NOASSERTION",
+            "supplier": "NOASSERTION",
+            "versionInfo": "Default Detect Version"
+        },
+        {
+            "SPDXID": "SPDXRef-package-459d00dd-e758-47e6-9df5-8bbacb3dc51a",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "459d00dd-e758-47e6-9df5-8bbacb3dc51a",
+                    "referenceType": "BlackDuck-ComponentVersion"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "c70b3184-8966-4dd9-b504-09743242d632",
+                    "referenceType": "BlackDuck-Component"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/%40dreamview/dreamview-carviz@1.1.0",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "7ebae457-e1ef-4126-8b1d-9a3cdd8b5182",
+                    "referenceType": "BlackDuck-ComponentOrigin"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "@dreamview/dreamview-carviz",
+            "originator": "Organization: npmjs",
+            "supplier": "Organization: npmjs",
+            "versionInfo": "1.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-package-06f69b50-c13a-4f29-90e8-ed547a393534",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "06f69b50-c13a-4f29-90e8-ed547a393534",
+                    "referenceType": "BlackDuck-ComponentVersion"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "992ee836-b766-48ef-955a-b1b0f9304720",
+                    "referenceType": "BlackDuck-Component"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/%40dreamview/dreamview-lang@1.1.3",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "25befa9e-1973-40eb-8dc9-577ecfdb93ba",
+                    "referenceType": "BlackDuck-ComponentOrigin"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "@dreamview/dreamview-lang",
+            "originator": "Organization: npmjs",
+            "supplier": "Organization: npmjs",
+            "versionInfo": "1.1.3"
+        },
+        {
+            "SPDXID": "SPDXRef-package-ed659bdc-7593-4165-ae03-f897bf244564",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "1e5ad288-f0d3-4fd9-a4ae-865600cbca7b",
+                    "referenceType": "BlackDuck-Component"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "f57d98be-6362-449e-b9b6-386b51d1d9a9",
+                    "referenceType": "BlackDuck-ComponentOrigin"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "ed659bdc-7593-4165-ae03-f897bf244564",
+                    "referenceType": "BlackDuck-ComponentVersion"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/%40dreamview/dreamview-theme@1.2.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "@dreamview/dreamview-theme",
+            "originator": "Organization: npmjs",
+            "supplier": "Organization: npmjs",
+            "versionInfo": "1.2.1"
+        },
+        {
+            "SPDXID": "SPDXRef-package-88746eb1-8634-4250-ba03-d37254ba6e00",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "4fe304e8-99aa-4828-9456-24b62698c584",
+                    "referenceType": "BlackDuck-ComponentOrigin"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "88746eb1-8634-4250-ba03-d37254ba6e00",
+                    "referenceType": "BlackDuck-ComponentVersion"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/%40dreamview/dreamview-ui@1.1.7",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "2b3c0081-0c2e-47b3-912a-c0f04d6b35e7",
+                    "referenceType": "BlackDuck-Component"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "@dreamview/dreamview-ui",
+            "originator": "Organization: npmjs",
+            "supplier": "Organization: npmjs",
+            "versionInfo": "1.1.7"
+        },
+        {
+            "SPDXID": "SPDXRef-package-e60e1548-ae51-492a-a2f6-271f5a1f9f96",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "e60e1548-ae51-492a-a2f6-271f5a1f9f96",
+                    "referenceType": "BlackDuck-ComponentVersion"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "a482d1c4-abe0-4946-8cbe-85bad0011cf3",
+                    "referenceType": "BlackDuck-Component"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "b18b44d6-5d42-4862-a231-d27ed1215745",
+                    "referenceType": "BlackDuck-ComponentOrigin"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:npm/%40dreamview/log@1.0.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "@dreamview/log",
+            "originator": "Organization: npmjs",
+            "supplier": "Organization: npmjs",
+            "versionInfo": "1.0.0"
+        },
+        {
+            "SPDXID": "SPDXRef-package-6f6a4c7f-d0d6-4f61-bb8f-f1cdddf983c7",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:github/ApolloAuto/apollo@v9.0.0-beta",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "ca6ee5e0-1fdc-4809-92fb-7092f85f31eb",
+                    "referenceType": "BlackDuck-ComponentOrigin"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "6f6a4c7f-d0d6-4f61-bb8f-f1cdddf983c7",
+                    "referenceType": "BlackDuck-ComponentVersion"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "c364487d-0027-4362-917e-8bebe7c3f130",
+                    "referenceType": "BlackDuck-Component"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "apolloauto",
+            "originator": "Organization: github",
+            "supplier": "Organization: github",
+            "versionInfo": "v9.0.0-beta"
+        },
+        {
+            "SPDXID": "SPDXRef-package-d1938649-a5f0-45e4-a412-a6e7c75c7f7d",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "d0d01cc9-002c-4698-a4ed-1fee834c1088",
+                    "referenceType": "BlackDuck-ComponentOrigin"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "d1938649-a5f0-45e4-a412-a6e7c75c7f7d",
+                    "referenceType": "BlackDuck-ComponentVersion"
+                },
+                {
+                    "referenceCategory": "OTHER",
+                    "referenceLocator": "f84979a1-427b-491d-83c8-24ec1d620e7c",
+                    "referenceType": "BlackDuck-Component"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:pypi/sssm@0.0.4",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "sssm",
+            "originator": "Organization: pypi",
+            "supplier": "Organization: pypi",
+            "versionInfo": "0.0.4"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relationshipType": "DESCRIBES",
+            "relatedSpdxElement": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be"
+        },
+        {
+            "spdxElementId": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "relationshipType": "DYNAMIC_LINK",
+            "relatedSpdxElement": "SPDXRef-package-06f69b50-c13a-4f29-90e8-ed547a393534"
+        },
+        {
+            "spdxElementId": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "relationshipType": "DYNAMIC_LINK",
+            "relatedSpdxElement": "SPDXRef-package-88746eb1-8634-4250-ba03-d37254ba6e00"
+        },
+        {
+            "spdxElementId": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "relationshipType": "DYNAMIC_LINK",
+            "relatedSpdxElement": "SPDXRef-package-6f6a4c7f-d0d6-4f61-bb8f-f1cdddf983c7"
+        },
+        {
+            "spdxElementId": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "relationshipType": "DYNAMIC_LINK",
+            "relatedSpdxElement": "SPDXRef-package-e60e1548-ae51-492a-a2f6-271f5a1f9f96"
+        },
+        {
+            "spdxElementId": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "relationshipType": "DYNAMIC_LINK",
+            "relatedSpdxElement": "SPDXRef-package-d1938649-a5f0-45e4-a412-a6e7c75c7f7d"
+        },
+        {
+            "spdxElementId": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "relationshipType": "DYNAMIC_LINK",
+            "relatedSpdxElement": "SPDXRef-package-ed659bdc-7593-4165-ae03-f897bf244564"
+        },
+        {
+            "spdxElementId": "SPDXRef-package-dd39601e-bddf-40fd-976e-ca7e6d3f73be",
+            "relationshipType": "DYNAMIC_LINK",
+            "relatedSpdxElement": "SPDXRef-package-459d00dd-e758-47e6-9df5-8bbacb3dc51a"
+        }
+    ]
+}
