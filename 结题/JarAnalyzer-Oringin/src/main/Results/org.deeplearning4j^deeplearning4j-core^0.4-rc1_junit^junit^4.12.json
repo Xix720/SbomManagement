@@ -1,0 +1,12 @@
+{
+  "上游组件：": "junit:junit:4.12",
+  "下游组件：": "org.deeplearning4j:deeplearning4j-core:0.4-rc1",
+  "漏洞列表": {
+    "CVE-2020-15250": [
+      {
+        "Sink点：": "org.junit.rules.TemporaryFolder:createTemporaryFolderIn(java.io.File)",
+        "可达性结果：": false
+      }
+    ]
+  }
+}

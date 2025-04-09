@@ -1,0 +1,12 @@
+{
+  "上游组件：": "junit:junit:4.12",
+  "下游组件：": "net.ericaro:neoitertools:1.0.0",
+  "漏洞列表": {
+    "CVE-2020-15250": [
+      {
+        "Sink点：": "org.junit.rules.TemporaryFolder:createTemporaryFolderIn(java.io.File)",
+        "可达性结果：": false
+      }
+    ]
+  }
+}

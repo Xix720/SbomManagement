@@ -1,0 +1,107 @@
+{
+  "上游组件：": "commons-io:commons-io:2.4",
+  "下游组件：": "org.deeplearning4j:deeplearning4j-nn:0.9.1",
+  "漏洞列表": {
+    "CVE-2021-29425": [
+      {
+        "Sink点：": "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)",
+        "可达性结果：": true,
+        "可达性路径：": [
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:getBestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:getLatestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:saveBestModel(org.deeplearning4j.nn.graph.ComputationGraph)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.optimize.listeners.callbacks.ModelSavingCallback:call(org.deeplearning4j.optimize.listeners.EvaluativeListener,org.deeplearning4j.nn.api.Model)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:saveLatestModel(org.deeplearning4j.nn.graph.ComputationGraph)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:saveBestModel(org.deeplearning4j.nn.multilayer.MultiLayerNetwork)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:getBestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:saveLatestModel(org.deeplearning4j.nn.multilayer.MultiLayerNetwork)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:getLatestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:getLatestModel()",
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:getLatestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:getBestModel()",
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:getBestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:getBestModel()",
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:getBestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:saveLatestModel(org.deeplearning4j.nn.api.Model)",
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:saveLatestModel(org.deeplearning4j.nn.multilayer.MultiLayerNetwork)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:saveBestModel(org.deeplearning4j.nn.api.Model)",
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:saveBestModel(org.deeplearning4j.nn.multilayer.MultiLayerNetwork)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:saveLatestModel(org.deeplearning4j.nn.api.Model)",
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:saveLatestModel(org.deeplearning4j.nn.graph.ComputationGraph)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:saveBestModel(org.deeplearning4j.nn.api.Model)",
+            "org.deeplearning4j.earlystopping.saver.LocalFileGraphSaver:saveBestModel(org.deeplearning4j.nn.graph.ComputationGraph)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:getLatestModel()",
+            "org.deeplearning4j.earlystopping.saver.LocalFileModelSaver:getLatestModel()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ]
+        ]
+      }
+    ]
+  }
+}

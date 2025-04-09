@@ -1,0 +1,24 @@
+{
+  "上游组件：": "org.apache.kafka:kafka-clients:2.3.0",
+  "下游组件：": "nz.ac.waikato.cms.adams:moa-kafka:2022.10.17",
+  "漏洞列表": {
+    "CVE-2021-38153": [
+      {
+        "Sink点：": "org.apache.kafka.common.security.plain.internals.PlainServerCallbackHandler:authenticate(java.lang.String)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.kafka.common.security.scram.internals.ScramSaslServer:verifyClientProof(org.apache.kafka.common.security.scram.internals.ScramMessages$ClientFinalMessage)",
+        "可达性结果：": false
+      },
+      {
+        "sink点": "org.apache.kafka.common.message.DescribeDelegationTokenResponseData$DescribedDelegationToken:equals(java.lang.Object)",
+        "可达性结果": false
+      },
+      {
+        "Sink点：": "org.apache.kafka.common.security.scram.internals.ScramSaslClient:handleServerFinalMessage()",
+        "可达性结果：": false
+      }
+    ]
+  }
+}

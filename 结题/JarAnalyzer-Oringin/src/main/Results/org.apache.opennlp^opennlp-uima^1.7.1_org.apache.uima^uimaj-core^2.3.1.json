@@ -1,0 +1,36 @@
+{
+  "上游组件：": "org.apache.uima:uimaj-core:2.3.1",
+  "下游组件：": "org.apache.opennlp:opennlp-uima:1.7.1",
+  "漏洞列表": {
+    "CVE-2017-15691": [
+      {
+        "Sink点：": "org.apache.uima.util.XmlCasDeserializer:deserialize(java.io.InputStream,org.apache.uima.cas.CAS)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.uima.cas.impl.XmiCasDeserializer:deserialize(java.io.InputStream,org.apache.uima.cas.CAS)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.uima.cas.impl.XCASDeserializer:deserialize(java.io.InputStream,org.apache.uima.cas.CAS)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.uima.util.impl.XMLParser_impl:parse(org.apache.uima.util.XMLInputSource,java.lang.String,java.net.URL)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.uima.cas.impl.XmiCasDeserializer:deserialize(java.io.InputStream,org.apache.uima.cas.CAS)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.uima.pear.util.XMLUtil:createSAXParser()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.uima.impl.UIMAFramework_impl:parseFactoryConfig()",
+        "可达性结果：": false
+      }
+    ]
+  }
+}

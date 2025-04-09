@@ -1,0 +1,28 @@
+{
+  "上游组件：": "log4j:log4j:1.2.17",
+  "下游组件：": "nz.ac.waikato.cms.moa:weka-package:2024.07.0",
+  "漏洞列表": {
+    "CVE-2019-17571": [
+      {
+        "sink点": "org.apache.logging.log4j.core.net.server.TcpSocketServer:createSerializedSocketServer(int,int,java.net.InetAddress)",
+        "可达性结果": false
+      },
+      {
+        "sink点": "org.apache.logging.log4j.core.net.server.ObjectInputStreamLogEventBridge:wrapStream(java.io.InputStream)",
+        "可达性结果": false
+      },
+      {
+        "sink点": "org.apache.logging.log4j.core.net.server.ObjectInputStreamLogEventBridge:logEvents(java.io.ObjectInputStream,org.apache.logging.log4j.core.LogEventListener)",
+        "可达性结果": false
+      },
+      {
+        "sink点": "org.apache.logging.log4j.core.net.server.UdpSocketServer:main(java.lang.String[])",
+        "可达性结果": false
+      },
+      {
+        "sink点": "org.apache.logging.log4j.core.net.server.TcpSocketServer:main(java.lang.String[])",
+        "可达性结果": false
+      }
+    ]
+  }
+}

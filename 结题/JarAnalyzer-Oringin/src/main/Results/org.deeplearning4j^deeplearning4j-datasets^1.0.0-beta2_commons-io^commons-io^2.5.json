@@ -1,0 +1,52 @@
+{
+  "上游组件：": "commons-io:commons-io:2.5",
+  "下游组件：": "org.deeplearning4j:deeplearning4j-datasets:1.0.0-beta2",
+  "漏洞列表": {
+    "CVE-2021-29425": [
+      {
+        "Sink点：": "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)",
+        "可达性结果：": true,
+        "可达性路径：": [
+          [
+            "org.deeplearning4j.datasets.fetchers.EmnistDataFetcher:<init>(org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator$Set)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.datasets.fetchers.MnistDataFetcher:<init>()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator:<init>(org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator$Set,ZZZJ)",
+            "org.deeplearning4j.datasets.fetchers.EmnistDataFetcher:<init>(org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator$Set)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.datasets.fetchers.MnistDataFetcher:<init>()",
+            "org.deeplearning4j.datasets.fetchers.MnistDataFetcher:<init>()",
+            "org.deeplearning4j.datasets.fetchers.MnistDataFetcher:<init>()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator:<init>(org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator$Set,ZJ)",
+            "org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator:<init>(org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator$Set,ZZZJ)",
+            "org.deeplearning4j.datasets.fetchers.EmnistDataFetcher:<init>(org.deeplearning4j.datasets.iterator.impl.EmnistDataSetIterator$Set)",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ],
+          [
+            "org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator:<init>()",
+            "org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator:<init>(I)",
+            "org.deeplearning4j.datasets.iterator.impl.MnistDataSetIterator:<init>(IZZZ)",
+            "org.deeplearning4j.datasets.fetchers.MnistDataFetcher:<init>()",
+            "org.apache.commons.io.FilenameUtils:concat(java.lang.String,java.lang.String)",
+            "org.apache.commons.io.FilenameUtils:getPrefixLength(java.lang.String)"
+          ]
+        ]
+      }
+    ]
+  }
+}

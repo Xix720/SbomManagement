@@ -1,0 +1,92 @@
+{
+  "上游组件：": "org.apache.commons:commons-compress:1.8",
+  "下游组件：": "org.deeplearning4j:deeplearning4j-nn:0.9.1",
+  "漏洞列表": {
+    "CVE-2021-36090": [
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.dump.DumpArchiveInputStream:readDirectoryEntry(org.apache.commons.compress.archivers.dump.DumpArchiveEntry)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.arj.ArjArchiveInputStream:readHeader()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.zip.ZipFile:readCentralDirectoryEntry(java.util.Map)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream:readCString()",
+        "可达性结果：": false
+      },
+      {
+        "sink点": "org.apache.commons.compress.archivers.zip.X0017_StrongEncryptionHeader:parseFileFormat(byte[],int,int)",
+        "可达性结果": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:getBSDLongName(java.lang.String)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.arj.ArjArchiveInputStream:readLocalFileHeader()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:readGNUStringTable()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.sevenz.SevenZFile:readArchiveProperties(java.io.DataInput)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream:readBinaryLong()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream:readAsciiLong()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.arj.ArjArchiveInputStream:readFully(java.io.DataInputStream)",
+        "可达性结果：": false
+      },
+      {
+        "sink点": "org.apache.commons.compress.archivers.examples.Expander:expand(org.apache.commons.compress.archivers.sevenz.SevenZFile,java.io.File)",
+        "可达性结果": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.dump.TapeInputStream:readBlock()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.arj.ArjArchiveInputStream:readMainHeader()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.ar.ArArchiveInputStream:getNextArEntry()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream:getNextZipEntry()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.sevenz.SevenZFile:readEncodedHeader(java.io.DataInputStream,org.apache.commons.compress.archivers.sevenz.Archive)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.zip.ZipArchiveInputStream:readFirstLocalFileHeader()",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.zip.BinaryTree:decode(java.io.InputStream)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "org.apache.commons.compress.archivers.zip.ZipFile:resolveLocalFileHeaderData(java.util.Map)",
+        "可达性结果：": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "opennlp.morfologik.builder.MorfologikDictionayBuilder:build(Ljava.nio.file.Path;)Ljava.nio.file.Path;": [
+    "opennlp.morfologik.builder.MorfologikDictionayBuilder:build(Ljava.nio.file.Path;ZZZZZ)Ljava.nio.file.Path;"
+  ],
+  "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool:getHelp()Ljava.lang.String;": [
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool:getBasicHelp(Ljava.lang.Class;)Ljava.lang.String;"
+  ],
+  "opennlp.morfologik.cmdline.CLI:main([Ljava.lang.String;)V": [
+    "opennlp.tools.cmdline.CmdLineTool:getHelp()Ljava.lang.String;",
+    "opennlp.tools.cmdline.BasicCmdLineTool:run([Ljava.lang.String;)V",
+    "opennlp.tools.cmdline.TerminateToolException:getCause()Ljava.lang.Throwable;",
+    "opennlp.morfologik.cmdline.CLI:usage()V",
+    "opennlp.tools.cmdline.TypedCmdLineTool:run(Ljava.lang.String;[Ljava.lang.String;)V",
+    "opennlp.tools.cmdline.TerminateToolException:getMessage()Ljava.lang.String;",
+    "opennlp.tools.cmdline.TerminateToolException:getCode()I",
+    "opennlp.tools.cmdline.CmdLineTool:hasParams()Z",
+    "opennlp.tools.cmdline.TypedCmdLineTool:getHelp(Ljava.lang.String;)Ljava.lang.String;",
+    "opennlp.tools.cmdline.TerminateToolException:\u003cinit\u003e(ILjava.lang.String;)V"
+  ],
+  "opennlp.morfologik.builder.MorfologikDictionayBuilder:createProperties(Ljava.nio.charset.Charset;Ljava.lang.String;Lmorfologik.stemming.EncoderType;)Ljava.util.Properties;": [
+    "morfologik.stemming.EncoderType:name()Ljava.lang.String;"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:\u003cinit\u003e()V": [
+    "opennlp.tools.postag.POSTaggerFactory:\u003cinit\u003e()V"
+  ],
+  "opennlp.morfologik.lemmatizer.MorfologikLemmatizer:\u003cinit\u003e(Ljava.nio.file.Path;)V": [
+    "morfologik.stemming.DictionaryLookup:\u003cinit\u003e(Lmorfologik.stemming.Dictionary;)V",
+    "morfologik.stemming.Dictionary:read(Ljava.nio.file.Path;)Lmorfologik.stemming.Dictionary;"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory$ByteArraySerializer:serialize(Ljava.lang.Object;Ljava.io.OutputStream;)V": [
+    "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory$ByteArraySerializer:serialize([BLjava.io.OutputStream;)V"
+  ],
+  "opennlp.morfologik.builder.MorfologikDictionayBuilder:build(Ljava.nio.file.Path;ZZZZZ)Ljava.nio.file.Path;": [
+    "morfologik.stemming.DictionaryMetadata:getExpectedMetadataLocation(Ljava.nio.file.Path;)Ljava.nio.file.Path;",
+    "morfologik.tools.DictCompile:\u003cinit\u003e(Ljava.nio.file.Path;ZZZZZ)V",
+    "morfologik.tools.DictCompile:call()Lmorfologik.tools.ExitStatus;"
+  ],
+  "opennlp.morfologik.util.MorfologikUtil:getExpectedPropertiesFile(Ljava.lang.String;)Ljava.io.File;": [
+    "opennlp.morfologik.util.MorfologikUtil:getExpectedPropertiesFile(Ljava.io.File;)Ljava.io.File;"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikTagDictionary:\u003cinit\u003e(Lmorfologik.stemming.Dictionary;)V": [
+    "opennlp.morfologik.tagdict.MorfologikTagDictionary:\u003cinit\u003e(Lmorfologik.stemming.Dictionary;Z)V"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikTagDictionary:getTags(Ljava.lang.String;)[Ljava.lang.String;": [
+    "morfologik.stemming.WordData:getTag()Ljava.lang.CharSequence;",
+    "morfologik.stemming.IStemmer:lookup(Ljava.lang.CharSequence;)Ljava.util.List;"
+  ],
+  "opennlp.morfologik.cmdline.CLI:\u003cclinit\u003e()V": [
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool:\u003cinit\u003e()V",
+    "opennlp.tools.cmdline.CmdLineTool:getName()Ljava.lang.String;",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:\u003cinit\u003e()V"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory$ByteArraySerializer:create(Ljava.io.InputStream;)[B": [
+    "opennlp.tools.util.model.ModelUtil:read(Ljava.io.InputStream;)[B"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikTagDictionary:\u003cinit\u003e(Lmorfologik.stemming.Dictionary;Z)V": [
+    "morfologik.stemming.DictionaryLookup:\u003cinit\u003e(Lmorfologik.stemming.Dictionary;)V"
+  ],
+  "opennlp.morfologik.lemmatizer.MorfologikLemmatizer:lemmatize(Ljava.util.List;Ljava.util.List;)Ljava.util.List;": [
+    "opennlp.morfologik.lemmatizer.MorfologikLemmatizer:lemmatize(Ljava.lang.String;Ljava.lang.String;)Ljava.util.List;"
+  ],
+  "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool:run([Ljava.lang.String;)V": [
+    "morfologik.stemming.DictionaryMetadata:getExpectedMetadataLocation(Ljava.nio.file.Path;)Ljava.nio.file.Path;",
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool$Params:getAcceptBOM()Ljava.lang.Boolean;",
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool$Params:getIgnoreEmpty()Ljava.lang.Boolean;",
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool:validateAndParseParams([Ljava.lang.String;Ljava.lang.Class;)Ljava.lang.Object;",
+    "opennlp.morfologik.builder.MorfologikDictionayBuilder:build(Ljava.nio.file.Path;ZZZZZ)Ljava.nio.file.Path;",
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool$Params:getValidate()Ljava.lang.Boolean;",
+    "opennlp.morfologik.builder.MorfologikDictionayBuilder:\u003cinit\u003e()V",
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool$Params:getOverwrite()Ljava.lang.Boolean;",
+    "opennlp.tools.cmdline.CmdLineUtil:checkInputFile(Ljava.lang.String;Ljava.io.File;)V",
+    "opennlp.tools.cmdline.TerminateToolException:\u003cinit\u003e(ILjava.lang.String;Ljava.lang.Throwable;)V",
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool$Params:getInputFile()Ljava.io.File;",
+    "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool$Params:getAcceptCR()Ljava.lang.Boolean;"
+  ],
+  "opennlp.morfologik.lemmatizer.MorfologikLemmatizer:lemmatize([Ljava.lang.String;[Ljava.lang.String;)[Ljava.lang.String;": [
+    "opennlp.morfologik.lemmatizer.MorfologikLemmatizer:lemmatize(Ljava.lang.String;Ljava.lang.String;)Ljava.util.List;"
+  ],
+  "opennlp.morfologik.cmdline.builder.MorfologikDictionaryBuilderTool:\u003cinit\u003e()V": [
+    "opennlp.tools.cmdline.BasicCmdLineTool:\u003cinit\u003e()V"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:createArtifactSerializersMap()Ljava.util.Map;": [
+    "opennlp.tools.postag.POSTaggerFactory:createArtifactSerializersMap()Ljava.util.Map;",
+    "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory$ByteArraySerializer:\u003cinit\u003e()V"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:createMorfologikDictionary([B[B)Lopennlp.tools.postag.TagDictionary;": [
+    "opennlp.morfologik.tagdict.MorfologikTagDictionary:\u003cinit\u003e(Lmorfologik.stemming.Dictionary;)V",
+    "morfologik.stemming.Dictionary:read(Ljava.io.InputStream;Ljava.io.InputStream;)Lmorfologik.stemming.Dictionary;"
+  ],
+  "opennlp.morfologik.lemmatizer.MorfologikLemmatizer:lemmatize(Ljava.lang.String;Ljava.lang.String;)Ljava.util.List;": [
+    "morfologik.stemming.WordData:getStem()Ljava.lang.CharSequence;",
+    "morfologik.stemming.WordData:getTag()Ljava.lang.CharSequence;",
+    "morfologik.stemming.IStemmer:lookup(Ljava.lang.CharSequence;)Ljava.util.List;",
+    "opennlp.morfologik.lemmatizer.MorfologikLemmatizer:asString(Ljava.lang.CharSequence;)Ljava.lang.String;"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:init(Lopennlp.tools.dictionary.Dictionary;Lopennlp.tools.postag.TagDictionary;)V": [
+    "opennlp.tools.postag.POSTaggerFactory:init(Lopennlp.tools.dictionary.Dictionary;Lopennlp.tools.postag.TagDictionary;)V"
+  ],
+  "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:\u003cinit\u003e()V": [
+    "opennlp.tools.cmdline.BasicCmdLineTool:\u003cinit\u003e()V"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:getTagDictionary()Lopennlp.tools.postag.TagDictionary;": [
+    "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:createMorfologikDictionary([B[B)Lopennlp.tools.postag.TagDictionary;",
+    "opennlp.tools.util.model.ArtifactProvider:getArtifact(Ljava.lang.String;)Ljava.lang.Object;"
+  ],
+  "opennlp.morfologik.util.MorfologikUtil:getExpectedPropertiesFile(Ljava.io.File;)Ljava.io.File;": [
+    "morfologik.stemming.DictionaryMetadata:getExpectedMetadataLocation(Ljava.nio.file.Path;)Ljava.nio.file.Path;"
+  ],
+  "opennlp.morfologik.cmdline.CLI:usage()V": [
+    "opennlp.tools.util.Version:toString()Ljava.lang.String;",
+    "opennlp.tools.util.Version:currentVersion()Lopennlp.tools.util.Version;",
+    "opennlp.tools.cmdline.CmdLineTool:getName()Ljava.lang.String;",
+    "opennlp.tools.cmdline.CmdLineTool:getShortDescription()Ljava.lang.String;"
+  ],
+  "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:run([Ljava.lang.String;)V": [
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool$Params:getInputFile()Ljava.io.File;",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool$Params:getOutputFile()Ljava.io.File;",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:valid(Ljava.lang.String;Ljava.lang.String;)Z",
+    "opennlp.tools.postag.POSDictionary:create(Ljava.io.InputStream;)Lopennlp.tools.postag.POSDictionary;",
+    "opennlp.tools.cmdline.CmdLineUtil:checkInputFile(Ljava.lang.String;Ljava.io.File;)V",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:createEntry(Ljava.lang.String;Ljava.lang.String;)Ljava.lang.String;",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:validateAndParseParams([Ljava.lang.String;Ljava.lang.Class;)Ljava.lang.Object;",
+    "morfologik.stemming.DictionaryMetadata:getExpectedMetadataLocation(Ljava.nio.file.Path;)Ljava.nio.file.Path;",
+    "opennlp.tools.cmdline.CmdLineUtil:checkOutputFile(Ljava.lang.String;Ljava.io.File;)V",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool$Params:getEncoding()Ljava.nio.charset.Charset;",
+    "opennlp.tools.postag.POSDictionary:getTags(Ljava.lang.String;)[Ljava.lang.String;",
+    "opennlp.tools.postag.POSDictionary:iterator()Ljava.util.Iterator;",
+    "opennlp.tools.cmdline.TerminateToolException:\u003cinit\u003e(ILjava.lang.String;Ljava.lang.Throwable;)V",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool$Params:getEncoder()Ljava.lang.String;",
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool$Params:getSeparator()Ljava.lang.String;"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory$ByteArraySerializer:create(Ljava.io.InputStream;)Ljava.lang.Object;": [
+    "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory$ByteArraySerializer:create(Ljava.io.InputStream;)[B"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:createTagDictionary(Ljava.io.File;)Lopennlp.tools.postag.TagDictionary;": [
+    "morfologik.stemming.DictionaryMetadata:getExpectedMetadataLocation(Ljava.nio.file.Path;)Ljava.nio.file.Path;",
+    "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:createMorfologikDictionary([B[B)Lopennlp.tools.postag.TagDictionary;"
+  ],
+  "opennlp.morfologik.tagdict.MorfologikPOSTaggerFactory:createArtifactMap()Ljava.util.Map;": [
+    "opennlp.tools.postag.POSTaggerFactory:createArtifactMap()Ljava.util.Map;"
+  ],
+  "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:getHelp()Ljava.lang.String;": [
+    "opennlp.morfologik.cmdline.builder.XMLDictionaryToTableTool:getBasicHelp(Ljava.lang.Class;)Ljava.lang.String;"
+  ]
+}

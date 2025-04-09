@@ -1,0 +1,50 @@
+{
+  "上游组件：": "org.apache.opennlp:opennlp-tools:1.7.1",
+  "下游组件：": "fr.vsct.tock:tock-nlp-model-opennlp:0.2.0",
+  "漏洞列表": {
+    "CVE-2017-12620": [
+      {
+        "Sink点：": "opennlp.tools.formats.letsmt.LetsmtDocument:parse(java.io.File)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "opennlp.tools.formats.frenchtreebank.ConstitParseSampleStream:<init>(opennlp.tools.util.ObjectStream)",
+        "可达性结果：": false
+      },
+      {
+        "Sink点：": "opennlp.tools.util.featuregen.GeneratorFactory:createDOM(java.io.InputStream)",
+        "可达性结果：": true,
+        "可达性路径：": [
+          [
+            "fr.vsct.tock.nlp.opennlp.OpenNlpModelBuilder:buildEntityModel(fr.vsct.tock.nlp.model.EntityBuildContext,java.util.List)",
+            "opennlp.tools.namefind.NameFinderME:train(java.lang.String,java.lang.String,opennlp.tools.util.ObjectStream,opennlp.tools.util.TrainingParameters,opennlp.tools.namefind.TokenNameFinderFactory)",
+            "opennlp.tools.namefind.TokenNameFinderFactory:createContextGenerator()",
+            "opennlp.tools.namefind.TokenNameFinderFactory:createFeatureGenerators()",
+            "opennlp.tools.util.featuregen.GeneratorFactory:create(java.io.InputStream,opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+            "opennlp.tools.util.featuregen.GeneratorFactory:createDOM(java.io.InputStream)"
+          ],
+          [
+            "fr.vsct.tock.nlp.opennlp.OpenNlpModelIo:loadEntityModel(fr.vsct.tock.nlp.model.service.storage.NlpModelStream)",
+            "opennlp.tools.namefind.NameFinderME:<init>(opennlp.tools.namefind.TokenNameFinderModel)",
+            "opennlp.tools.namefind.TokenNameFinderFactory:createContextGenerator()",
+            "opennlp.tools.namefind.TokenNameFinderFactory:createFeatureGenerators()",
+            "opennlp.tools.util.featuregen.GeneratorFactory:create(java.io.InputStream,opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+            "opennlp.tools.util.featuregen.GeneratorFactory:createDOM(java.io.InputStream)"
+          ],
+          [
+            "fr.vsct.tock.nlp.opennlp.OpenNlpNameFinderME:<init>(opennlp.tools.namefind.TokenNameFinderModel)",
+            "opennlp.tools.namefind.NameFinderME:<init>(opennlp.tools.namefind.TokenNameFinderModel)",
+            "opennlp.tools.namefind.TokenNameFinderFactory:createContextGenerator()",
+            "opennlp.tools.namefind.TokenNameFinderFactory:createFeatureGenerators()",
+            "opennlp.tools.util.featuregen.GeneratorFactory:create(java.io.InputStream,opennlp.tools.util.featuregen.FeatureGeneratorResourceProvider)",
+            "opennlp.tools.util.featuregen.GeneratorFactory:createDOM(java.io.InputStream)"
+          ]
+        ]
+      },
+      {
+        "sink点": "opennlp.tools.formats.irishsentencebank.IrishSentenceBankDocument:parse(java.io.InputStream)",
+        "可达性结果": false
+      }
+    ]
+  }
+}
